@@ -19,7 +19,7 @@ Clona este proyecto con git mediante este link: https://github.com/sergioaltuzar
 3. Crea el servicor con express con el sigueinte comando -> npm install express --save 
 4.  Intala Jest para tus pruebas con este comando -> npm install --save-dev jest
 
-puedes checar el funcionamiento de las API´S enpoints entrando al servidor -> 
+puedes checar el funcionamiento de las API´S enpoints entrando a servidor local (una vez desplegado correctamente) -> 
 1. http://localhost:3000/v1/credits
 2. http://localhost:3000/v1
 3. http://localhost:3000/v1/emails
@@ -44,7 +44,7 @@ Las pruebas las ejecutas con npm test
 
 ## Expresiones de Gratitud 🎁
 
-* Agradecimientos totales al M.C @carlosgilmar por su mentoria y todo el trabajo que realiza para formarmos como programadores con de alto desempeño.
+* Agradecimientos totales al M.C @carlosgilmar por su mentoria y todo el trabajo que realiza para formarmos como programadores de alto desempeño.
 * De enaltecer tambien el enorme trabajo y dedicacion de todo el equipo de Launch X.
 
 
