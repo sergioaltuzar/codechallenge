@@ -15,7 +15,7 @@ describe("StudentService", () => {
         const partners = Reader.readJsonFile("visualpartners.json");
         const partner = StudentService.getEmails(partners);
         
-        expect(partner[0]).toBe("SERGIO.xyz");
+        expect(partner[0]).toBe("Sharlene@visualpartnership.xyz");
     });
 
     test("Prueba estudiantes con mas de 500 creditos", () => {
@@ -24,6 +24,6 @@ describe("StudentService", () => {
         let status;
         partner.forEach((element) => element.credits > 500 ? status = true : status = false);
         
-        expect(status).toBe(false);
+        expect(status).toBe(true);
     });
 });

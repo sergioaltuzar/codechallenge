@@ -7,7 +7,7 @@ describe("studentController", () => {
     });
     test("Emails de todos los estudiantes que tienen certificacion", () => {
         const mails = StudentController.getEmails();
-        expect(mails[0]).toBe("Todd@visualpartnership.xyz");
+        expect(mails[0]).toBe("Benton@visualpartnership.xyz");
     });
     test("Estudiantes con mas de 500 creditos", () => {
         const partner = StudentController.getStudentsMore500Credits();
