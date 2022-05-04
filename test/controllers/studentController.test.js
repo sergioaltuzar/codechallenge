@@ -9,7 +9,7 @@ describe("studentController", () => {
         const mails = StudentController.getEmails();
         expect(mails[0]).toBe("Todd@visualpartnership.xyz");
     });
-    test("Students with more than 500 credits", () => {
+    test("Estudiantes con mas de 500 creditos", () => {
         const partner = StudentController.getStudentsMore500Credits();
         let status;
         partner.forEach((element) => element.credits > 500 ? status = true : status = false);
