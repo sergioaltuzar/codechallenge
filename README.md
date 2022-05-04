@@ -4,7 +4,6 @@ Ejercicios 3,4,5 de la semana 4, Mision BackEnd con Node Js, para Launch X.
 
 ## Comenzando 🚀
 Clona este proyecto con git mediante este link: https://github.com/sergioaltuzar/Refactoring.git
-Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋
