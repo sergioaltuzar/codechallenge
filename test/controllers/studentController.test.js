@@ -7,13 +7,13 @@ describe("studentController", () => {
     });
     test("Emails de todos los estudiantes que tienen certificacion", () => {
         const mails = StudentController.getEmails();
-        expect(mails[0]).toBe("sergio.xyz");
+        expect(mails[0]).toBe("Todd@visualpartnership.xyz");
     });
     test("Estudiantes con mas de 500 creditos", () => {
         const partner = StudentController.getStudentsMore500Credits();
         let status;
         partner.forEach((element) => element.credits > 500 ? status = true : status = false);
         
-        expect(status).toBe(false);
+        expect(status).toBe(true);
     });
 });
