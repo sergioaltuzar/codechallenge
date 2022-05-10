@@ -1,6 +1,6 @@
 # CODECHALLENGE
 
-Ejercicios 3,4,5 de la semana 4, Mision BackEnd con Node Js, para Launch X.
+Ejercicios 3,4,5 de la semana 4, Mision BackEnd con Node Js, para Launch X. Se habilitaron los enpoints necesarios para consultar la información de los estudiantes, sus emails y que estudiantes tienen mas de 500 puntos.
 
 ## Comenzando 🚀
 Clona este proyecto con git mediante este link: https://github.com/sergioaltuzar/Refactoring.git
